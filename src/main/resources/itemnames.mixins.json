@@ -4,6 +4,7 @@
   "package": "me.spzla.itemnames.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ItemStackMixin"
   ],
   "client": [
   ],

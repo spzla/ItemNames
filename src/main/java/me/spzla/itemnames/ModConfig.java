@@ -3,6 +3,7 @@ package me.spzla.itemnames;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
+import dev.isxander.yacl3.api.YetAnotherConfigLib;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.gui.screen.Screen;
 
@@ -47,7 +48,9 @@ public class ModConfig {
         }
     }
 
-    public Screen makeScreen() {
-
+    public Screen makeScreen(Screen parent) {
+        return YetAnotherConfigLib.createBuilder()
+                .build()
+                .generateScreen(parent);
     }
 }

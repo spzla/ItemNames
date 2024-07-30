@@ -16,7 +16,7 @@
       "me.spzla.itemnames.ItemNames"
     ],
     "modmenu": [
-      "me.spzla.itemnames"
+      "me.spzla.itemnames.integration.ModMenuIntegration"
     ]
   },
   "mixins": [
