@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "itemnames",
+  "version": "${version}",
+  "name": "Item Names",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/spzla/itemnames"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/itemnames/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.spzla.itemnames.ItemNames"
+    ],
+    "modmenu": [
+      "me.spzla.itemnames"
+    ]
+  },
+  "mixins": [
+    "itemnames.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
