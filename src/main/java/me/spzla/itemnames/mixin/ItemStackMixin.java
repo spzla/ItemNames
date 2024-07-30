@@ -1,7 +1,6 @@
 package me.spzla.itemnames.mixin;
 
 import me.spzla.itemnames.ItemNames;
-import me.spzla.itemnames.access.ItemStackAccessor;
 import net.minecraft.component.ComponentHolder;
 import net.minecraft.component.ComponentType;
 import net.minecraft.component.DataComponentTypes;
